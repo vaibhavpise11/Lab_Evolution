@@ -1,0 +1,25 @@
+//Q 4 wap to check a new string from given string with first character of string added at front and back of string 
+package coplab_;
+
+import java.util.Scanner;
+
+public class Q4 {
+
+	public static void main(String[] args) {
+		//char q;
+		System.out.println("Enter string");
+		Scanner sc=new Scanner(System.in);
+		String s=sc.next();
+		
+		char q= s.charAt(0);
+		System.out.println(s);
+		
+		String result =q + s + q ;
+		
+		System.out.println(result);
+		
+	 
+
+	}
+
+}
